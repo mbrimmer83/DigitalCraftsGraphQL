@@ -3,15 +3,20 @@
 
 ### Getting started
 `clone repo`
+
 `cd DigitalCraftsGraphQL`
 
 `yarn install`
+
 `yarn run dev`
 
 or
 
 `npm install`
+
 `npm run dev`
+
+Navigate to http://localhost:8080/graphql`
 
 ### Sample query for sports search
 ```javascript
