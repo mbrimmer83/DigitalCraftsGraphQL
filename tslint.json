@@ -1,0 +1,28 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended"
+  ],
+  "jsRules": {},
+  "rules": {
+    "lines-between-class-members": true,
+    "newline-before-return": true,
+    "object-literal-key-quotes": [true, "as-needed"],
+    "quotemark": [true, "single", "jsx-double"],
+    "semicolon": [true, "never"],
+    "trailing-comma": [
+      true,
+      {
+        "multiline": "always",
+        "singleline": "never",
+        "esSpecCompliant": true
+      }
+    ],
+    "object-literal-sort-keys": false,
+    "member-access": false,
+    "variable-name": [true, "ban-keywords", "check-format", "allow-leading-underscore", "allow-pascal-case"]
+  },
+  "rulesDirectory": [
+    "node_modules/tslint-lines-between-class-members"
+  ]
+}

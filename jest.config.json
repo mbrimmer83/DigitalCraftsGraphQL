@@ -1,0 +1,20 @@
+{
+  "moduleFileExtensions": [
+    "ts",
+    "js"
+  ],
+  "transform": {
+    "^.+\\.ts$": "ts-jest"
+  },
+  "globals": {
+    "ts-jest": {
+      "tsConfig": "tsconfig.json"
+    }
+  },
+  "testMatch": [
+    "**/__tests__/*.+(ts)",
+    "**/__tests__/*.+(js)"
+  ],
+  "preset": "ts-jest/presets/js-with-ts",
+  "clearMocks": true
+}
